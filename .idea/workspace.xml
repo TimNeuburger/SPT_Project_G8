@@ -5,18 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579fa472-e134-419e-9db6-0562484bbbd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Old_Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/IRSensorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Components/ColorMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Components/ColorSensorEV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Components/DifferentialDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Components/MotorEV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/template_project_gradle-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/MyFirstRobot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/MyFirstRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/FractalCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/FractalTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/SimpleWebServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/LCDShowJavaLogoExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/LEDPatternsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/TTSDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/motor/BasicMotorOperationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/BatteryDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/DetectBlueBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/IRSensorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/IRSensorRemoteControlExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/TouchSensorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/TurnWithGyroSensorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/USSensorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/SPT_Project_G8-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SPT_Project_G8-2.6.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/MyFirstRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/FractalCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/FractalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/SimpleWebServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/LCDShowJavaLogoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/LEDPatternsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/TTSDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/motor/BasicMotorOperationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/BatteryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/DetectBlueBall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/IRSensorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/IRSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/IRSensorRemoteControlExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/TouchSensorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/TurnWithGyroSensorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/USSensorExample.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +66,41 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SPT_Project_G8" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SPT_Project_G8" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SPT_Project_G8" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +120,11 @@
     &quot;accountId&quot;: &quot;be5ad50a-da54-40a8-a06a-cf72daddd803&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ev3dev-lang-java/ev3dev-lang-java/2.6.2-SNAPSHOT/9f27e760c4571cfe6178f3f3037d030011c80fbf/ev3dev-lang-java-2.6.2-SNAPSHOT-sources.jar!/ev3dev/sensors/BaseSensor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ev3dev-lang-java/ev3dev-lang-java/2.6.2-SNAPSHOT/9f27e760c4571cfe6178f3f3037d030011c80fbf/ev3dev-lang-java-2.6.2-SNAPSHOT-sources.jar!/ev3dev/sensors/ev3/EV3ColorSensor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ev3dev-lang-java/lejos-commons/0.7.3/3d7f40db80d8bf474ef7c5f39e18a31b4fc88aef/lejos-commons-0.7.3-sources.jar!/lejos/robotics/Color.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -62,25 +136,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/neti/Documents/FH-git/SPT_Project_G8",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SPT_Project_G8 [help].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SPT_Project_G8 [javadoc].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;first-test-tim&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/neti/Documents/FH-git/ProHUE/hue1-TimNeuburger/Aufgabe1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27471265&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator" />
+      <recent name="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+      <recent name="Components" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SPT_Project_G8 [javadoc]">
+    <configuration name="SPT_Project_G8 [help]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="help" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SPT_Project_G8 [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="javadoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SPT_Project_G8 [javadoc]" />
+        <item itemvalue="Gradle.SPT_Project_G8 [help]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
