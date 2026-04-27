@@ -4,9 +4,11 @@ import lejos.hardware.port.MotorPort;
 import lejos.hardware.port.SensorPort;
 import lejos.robotics.Color;
 
-public class AlphaTestTurning {
+import java.util.concurrent.TimeUnit;
 
-    public static void main(final String[] args){
+public class AlphaTestTurningOLD {
+
+    public static void main(final String[] args) throws InterruptedException {
 
         System.out.println("Creating Motor A & B");
         MotorEV3 leftMotor = new MotorEV3(MotorPort.A);
@@ -37,9 +39,14 @@ public class AlphaTestTurning {
             while (irSensor.getDistance() < 50) {
                 if(leftColor.getValue1() < 300) {
                     motors.move(600, -600);
-                    System.
+                    TimeUnit.MILLISECONDS.sleep(400);
+                    motors.move(600,600);
                 }
-                if
+                if(rightColor.getValue1() < 300) {
+                    motors.move(-600, 600);
+                    TimeUnit.MILLISECONDS.sleep(400);
+                    motors.move(600,600);
+                }
             }
         }
     }

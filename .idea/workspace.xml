@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579fa472-e134-419e-9db6-0562484bbbd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components/ColorMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components/ColorSensorEV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components/DifferentialDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components/MotorEV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlphaTestTurning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlphaTestTurningOLD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SensorCalibration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" afterDir="false" />
@@ -16,44 +15,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/MyFirstRobot$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/MyFirstRobot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/FractalCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/FractalTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/programming/SimpleWebServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/LCDShowJavaLogoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/LEDPatternsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/TTSDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/actuator/motor/BasicMotorOperationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/BatteryDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/DetectBlueBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/IRSensorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/IRSensorRemoteControlExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/TouchSensorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/TurnWithGyroSensorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/example/robotics/ev3/sensor/USSensorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Components/ColorSensorEV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Components/ColorSensorEV3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/SPT_Project_G8-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SPT_Project_G8-2.6.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/MyFirstRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/FractalCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/FractalTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/programming/SimpleWebServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/LCDShowJavaLogoExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/LEDPatternsExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/TTSDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator/motor/BasicMotorOperationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/BatteryDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/DetectBlueBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/IRSensorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/IRSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/IRSensorRemoteControlExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/TouchSensorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/TurnWithGyroSensorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor/USSensorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/ColorSensorEV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/ColorSensorEV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

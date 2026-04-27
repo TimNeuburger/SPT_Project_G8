@@ -6,7 +6,7 @@ import lejos.robotics.Color;
 
 import java.util.concurrent.TimeUnit;
 
-public class AlphaTestTurningOLD {
+public class AlphaTestTurning {
 
     public static void main(final String[] args) throws InterruptedException {
 
@@ -30,6 +30,10 @@ public class AlphaTestTurningOLD {
         }));
 
         System.out.println("Start program");
+        boolean droveOverLeftLine = false;
+        boolean droveOverRightLine = false;
+        boolean onLeftLine = false;
+        boolean onRightLine = false;
         while(true) {
 
             Enter.waitForPress();
@@ -38,14 +42,18 @@ public class AlphaTestTurningOLD {
             motors.move(600,600);
             while (irSensor.getDistance() < 50) {
                 if(leftColor.getValue1() < 300) {
-                    motors.move(600, -600);
-                    TimeUnit.MILLISECONDS.sleep(400);
-                    motors.move(600,600);
+                    onLeftLine = true;
+                } else if (onLeftLine) {
+                    onLeftLine = false;
+                    droveOverLeftLine = true;
+                    motors.move(600, 300);
                 }
                 if(rightColor.getValue1() < 300) {
-                    motors.move(-600, 600);
-                    TimeUnit.MILLISECONDS.sleep(400);
-                    motors.move(600,600);
+                    onRightLine = true;
+                } else if (onRightLine) {
+                    onRightLine = false;
+                    droveOverRightLine = true;
+                    motors.move(300, 600);
                 }
             }
         }
