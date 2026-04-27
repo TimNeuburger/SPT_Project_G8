@@ -29,25 +29,29 @@ public class AlphaTestTurningOLD {
             }
         }));
 
+        irSensor.getDistance();
+        leftColor.getValue1();
+        rightColor.getValue1();
         System.out.println("Start program");
         while(true) {
 
             Enter.waitForPress();
-            leftColor.setLight(Color.WHITE);
-            rightColor.setLight(Color.WHITE);
-            motors.move(600,600);
-            while (irSensor.getDistance() < 50) {
-                if(leftColor.getValue1() < 300) {
-                    motors.move(600, -600);
-                    TimeUnit.MILLISECONDS.sleep(400);
-                    motors.move(600,600);
+            leftColor.setLight(Color.RED);
+            rightColor.setLight(Color.RED);
+            motors.move(415,400);
+            while (irSensor.getDistance() < 20) {
+                if(leftColor.getValue1() < 368) {
+                    motors.move(300, -200);
+                    TimeUnit.MILLISECONDS.sleep(150);
+                    motors.move(300,300);
                 }
-                if(rightColor.getValue1() < 300) {
-                    motors.move(-600, 600);
-                    TimeUnit.MILLISECONDS.sleep(400);
-                    motors.move(600,600);
+                if(rightColor.getValue1() < 8) {
+                    motors.move(-200, 300);
+                    TimeUnit.MILLISECONDS.sleep(150);
+                    motors.move(300,300);
                 }
             }
+            motors.stop();
         }
     }
 }

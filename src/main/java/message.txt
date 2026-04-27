@@ -38,7 +38,7 @@ public class AlphaTestTurning {
                     stopDrivingAsync();
                     break;
                 }
-                Thread.sleep(10);
+//                Thread.sleep(50);
             }
         }
     }
@@ -62,19 +62,21 @@ public class AlphaTestTurning {
     static void drivingLogic() throws InterruptedException {
         System.out.println("Start program");
 
+        boolean onLeftLine = false;
+        boolean onRightLine = false;
+
         leftColor.setLight(Color.RED);
         rightColor.setLight(Color.RED);
 
         while (!Thread.currentThread().isInterrupted()) {
-            if (leftColor.getValue1() < 368) {
-                motors.move(150, 300);
+            if (leftColor.getValue1() < 300) {
+                motors.move(600, 300);
             }
-            else if (rightColor.getValue1() < 8) {
-                motors.move(150, 300);
+            else if (rightColor.getValue1() < 300) {
+                motors.move(300, 600);
             }else{
-                motors.move(300, 300);
+                motors.move(600, 600);
             }
-            Thread.sleep(1);
         }
     }
 
