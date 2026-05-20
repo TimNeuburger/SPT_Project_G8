@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579fa472-e134-419e-9db6-0562484bbbd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlphaTestTurningV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AlphaTestTurningV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Components/DriveMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MotorCalibration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/fileContent/fileContent.lock" afterDir="false" />
@@ -13,15 +17,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurning$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurning.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurningOLD.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurningOLD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurningOLD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AlphaTestTurningOLD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FirstTry$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FirstTry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Old_Project$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Old_Project.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/SPT_Project_G8-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SPT_Project_G8-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlphaTestTurning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlphaTestTurning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlphaTestTurningOLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlphaTestTurningOLD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlphaTestTurning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/oldCode/AlphaTestTurning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlphaTestTurningOLD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/oldCode/AlphaTestTurningOLD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/oldCode/FirstTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Old_Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/oldCode/Old_Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/message.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -103,28 +111,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SPT_Project_G8 [help].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SPT_Project_G8 [javadoc].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;first-test-tim&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/neti/Documents/FH-git/ProHUE/hue1-TimNeuburger/Aufgabe1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.27471265&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.SPT_Project_G8 [help].executor": "Run",
+    "Gradle.SPT_Project_G8 [javadoc].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "first-test-tim",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/neti/Documents/FH-git/ProHUE/hue6-TimNeuburger",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27471265",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/example/robotics/ev3/actuator" />
       <recent name="$PROJECT_DIR$/src/main/java/example/robotics/ev3/sensor" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />

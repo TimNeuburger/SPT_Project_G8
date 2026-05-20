@@ -1,12 +1,9 @@
-import com.sun.source.tree.WhileLoopTree;
 import ev3dev.actuators.lego.motors.EV3LargeRegulatedMotor;
 import ev3dev.sensors.Battery;
 import ev3dev.sensors.ev3.EV3IRSensor;
-import ev3dev.sensors.ev3.EV3UltrasonicSensor;
 import lejos.hardware.port.MotorPort;
 import lejos.hardware.port.SensorPort;
 import lejos.robotics.SampleProvider;
-import lejos.utility.Delay;
 
 public class Old_Project {
 
