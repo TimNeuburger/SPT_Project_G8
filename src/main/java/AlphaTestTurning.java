@@ -93,6 +93,7 @@ public class AlphaTestTurning {
                 }
             }
             driveMode = DriveMode.STOP;
+            lastDriveMode = driveMode;
             motors.stop();
         }
     }
